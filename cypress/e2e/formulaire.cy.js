@@ -1,6 +1,6 @@
 describe('Test formulaire d\'ajout', () => {
   it('passes', () => {
-    cy.visit('http://localhost/github_testing/addUser')
+    cy.visit('https://testing.adrardev.fr/addUser')
     cy.get('input[name="nom"]').type('DOE')
     cy.get('input[name="prenom"]').type('John')
     cy.get('input[name="mail"]').type('')
